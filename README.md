@@ -1,3 +1,3 @@
 # Inf_2020buteyko
 
-qwerty
+see linal elements in folder "linal"
