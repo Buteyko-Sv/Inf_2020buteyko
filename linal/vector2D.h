@@ -1,3 +1,6 @@
+#ifndef VECTOR2D_H
+#define VECTOR2D_H
+
 #include <math.h>
 #include <iostream>
 
@@ -40,3 +43,5 @@ double getAngle(Vector2D &v1, Vector2D &v2); //получение угла между векторами
 
 std::ostream& operator<<(std::ostream& out, const Vector2D& v);//вывод вектора в формате (х; у)
 std::istream& operator>>(std::istream &in, Vector2D &v);//ввод координат вектора
+
+#endif // VECTOR2D_H

@@ -1,3 +1,6 @@
+#ifndef MATRIX_H
+#define MATRIX_H
+
 #include <iostream>
 class Matrix
 {
@@ -34,3 +37,5 @@ private:
 };
 std::ostream& operator<<(std::ostream& out, const Matrix& M);
 std::istream& operator>>(std::istream &in, Matrix &M);
+
+#endif // MATRIX_H
